@@ -1,0 +1,50 @@
+.navbar .btn-outline-light:hover {
+   color:var(--bs-dark);
+}
+
+
+.navbar-sticky{
+   opacity:0.9;
+   box-shadow: 0 0 10px rgba(0, 0 ,0, 0.5);
+}
+.navbar{
+   transition: all 0.5s ease-in-out;
+}
+
+.header{
+   background: url(../images/blu_bg_img.avif) center center no-repeat;
+   background-size: cover;
+}
+
+// #bg{
+//    background: url(../images/blu_bg_img.avif) center center no-repeat;
+//    background-size: cover;
+// }
+
+
+
+
+@media(max-width:1000px){
+   .hero .image-container{
+      display:flex;
+      justify-content: center;
+   }
+   .hero .text-container{
+      text-align: center;
+   }
+}
+
+.modal-dialog{
+   max-width: 1040px;
+}
+
+.download{
+   background: url('../images/blu_bg_img.avif') center center no-repeat;
+   background-size: cover;
+}
+
+// jr kahi changes lrayche asn tr build command run kravi lagte ie.npm run sass:build
+
+// "sass:watch": "sass --no-source-map --watch scss:css"
+    // second command mul sarkh sarkh build command run kravi nhi lagnar te automatially update hoil
+    // this is in json file
